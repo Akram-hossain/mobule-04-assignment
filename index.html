@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta name="theme-color" content="#fafafa">
+
+  <!-- Bootstrap CSS start -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Bootstrap CSS end -->
+
+  <!-- plugin CSS start -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- plugin CSS end -->
+
+  <!-- custom CSS start -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <!-- custom CSS end -->
+
+  <title>Home </title>
+</head>
+
+<body>
+
+  <!-- main container start -->
+  <main class="main-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-12 col-md-12">
+          <div class="product-list-head">
+            <h1>Products List</h1>
+          </div>
+          <div class="row" id="products"> 
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 col-md-12">
+          <div class="product-list-head">
+            <h1>Cart Items List</h1>
+          </div>
+          <div class="cart-items-box">
+            <!-- cart item start -->
+            <div class="cart-item">
+              <div class="media">
+                <img src="https://cdn.pixabay.com/photo/2015/09/26/09/08/hipster-958805_640.jpg" alt="Thumbnail"
+                  class="img-fluid">
+                <div class="media-body">
+                  <h5>Product Name 01</h5>
+                  <h6>Price: $120</h6>
+                </div>
+              </div>
+              <div class="quantity">
+                <h5>Quantity</h5>
+                <h6><i class="fas fa-minus"></i> 3 <i class="fas fa-plus"></i></h6>
+              </div>
+              <div class="quantity">
+                <h5>Total Amount</h5>
+                <h6>3245</h6>
+              </div>
+              <div class="close-cart">
+                <a href="#"><i class="fas fa-close"></i></a>
+              </div>
+            </div>
+            <!-- cart item end --> 
+            <div class="cart-price-box"> 
+              <div class="d-flex">
+                <h5>Total Amount:</h5>
+                <h5>$544</h5>
+              </div>
+              <div class="all-clear-bttn">
+                <a href="#">Clear Whole Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </main>
+  <!-- main container end -->
+
+  <!-- Bootstrap Bundle with Popper JS start -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script> 
+  <script src="./app.js" type="module"></script> 
+  
+  <!-- Bootstrap Bundle with Popper JS end -->
+
+</body>
+
+</html>
