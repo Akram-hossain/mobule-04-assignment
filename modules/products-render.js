@@ -1,5 +1,3 @@
-import { products } from './modules/products.js';
-
 const renderProducts = (allProducts) => {
     let newProduct = '';
     allProducts.map((product) => {
@@ -13,16 +11,15 @@ const renderProducts = (allProducts) => {
             <div class="txt card-body">
                 <h5>${product.name}</h5>
                 <div class="bttns">
-                <a href="#">Add to cart</a>
+                <a href="#" class="add-to-cart" product-id="${product.id}">Add to cart</a>
                 <h6>$ ${product.price}</h6>
                 </div>
             </div>
             </div>
         </div>
     `
-    });
-
+    }); 
     document.querySelector("#products").innerHTML = newProduct;
 }
 
-renderProducts(products);
+export {renderProducts};
