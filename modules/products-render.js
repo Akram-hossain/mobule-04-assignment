@@ -11,7 +11,7 @@ const renderProducts = (allProducts) => {
             <div class="txt card-body">
                 <h5>${product.name}</h5>
                 <div class="bttns">
-                <a href="#" class="add-to-cart" product-id="${product.id}">Add to cart</a>
+                <a href="#" class="add-to-cart" data-id="${product.id}">Add to cart</a>
                 <h6>$ ${product.price}</h6>
                 </div>
             </div>
